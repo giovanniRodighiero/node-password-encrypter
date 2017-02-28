@@ -1,5 +1,5 @@
 {
-  "name": "password-encrypter",
+  "name": "node-password-encrypter",
   "version": "1.0.0",
   "description": "Simple promise-style password encrypter, based on node.js crypto module. ",
   "keywords": ["password", "hasher", "encrypter", "crypto", "pbkdf2"],

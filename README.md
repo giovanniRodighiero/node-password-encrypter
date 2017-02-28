@@ -1,5 +1,6 @@
 # node password encrypter
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 Simple promise-style password (or generic strings) encrypter based on Node.js core module [Crypto](https://nodejs.org/api/crypto.html).
@@ -95,3 +96,8 @@ For reliable results, you have to pass the same config you used for encrypt.
 * `$ npm run standard` to check code style against Standard.js
 * `$ npm run test` to launch the test suite
 * `$ npm run coverage` to check the code coverage through nyc
+
+## License
+Licensed under the MIT License, Copyright © 2017 Giovanni Rodighiero.
+
+See [LICENSE](./LICENSE) for more information.
