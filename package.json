@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "mocha test/validation.js --recursive --timeout 10000",
+    "test": "mocha test --recursive --timeout 10000",
     "standard": "standard \"src/**/*.js\"",
     "standard-fix": "standard \"src/**/*.js\" --fix",
     "coverage": "nyc mocha test --recursive --timeout 10000"
