@@ -1,0 +1,29 @@
+{
+  "name": "password-encrypter",
+  "version": "1.0.0",
+  "description": "Simple promise-style password encrypter, based on node.js crypto module. ",
+  "keywords": ["password", "hasher", "encrypter", "crypto", "pbkdf2"],
+  "main": "index.js",
+  "author": {
+    "name" : "Giovanni Rodighiero",
+    "email" : "giovanni.rodighiero@outlook.it",
+    "url" : "https://www.linkedin.com/in/giovannirodighiero"
+  },
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/giovanniRodighiero/node-password-encrypter.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/validation.js --recursive --timeout 10000",
+    "standard": "standard \"src/**/*.js\"",
+    "standard-fix": "standard \"src/**/*.js\" --fix",
+    "coverage": "nyc mocha test --recursive --timeout 10000"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2",
+    "standard": "^8.6.0"
+  }
+}
